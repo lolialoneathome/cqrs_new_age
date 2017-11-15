@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cqrs_review_windsor", "cqrs_review_windsor\cqrs_review_windsor.csproj", "{C6F0F2E8-9BCD-4C2C-90CA-B2507EEA71A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppExampleSql", "MyAppExampleSql\MyAppExampleSql.csproj", "{3557A06B-5AF9-425E-B4CD-60D928F17107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDomainCommandContext", "MyDomainCommandContext\MyDomainCommandContext.csproj", "{808624FC-6EF7-4524-8697-63D250899F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyModel", "MyModel\MyModel.csproj", "{06DAC60B-34A7-4360-B030-4D1B2214B9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDomainCriteries", "MyDomainCriteries\MyDomainCriteries.csproj", "{AB6BD415-BE30-4C07-9587-353329507EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsoleApp", "MyConsoleApp\MyConsoleApp.csproj", "{511EA814-82D1-4C71-A851-767F4245723F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppExampleHttp", "MyAppExampleHttp\MyAppExampleHttp.csproj", "{674A30BE-289C-440B-AF68-356D45D9A589}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F0F2E8-9BCD-4C2C-90CA-B2507EEA71A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F0F2E8-9BCD-4C2C-90CA-B2507EEA71A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F0F2E8-9BCD-4C2C-90CA-B2507EEA71A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F0F2E8-9BCD-4C2C-90CA-B2507EEA71A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3557A06B-5AF9-425E-B4CD-60D928F17107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3557A06B-5AF9-425E-B4CD-60D928F17107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3557A06B-5AF9-425E-B4CD-60D928F17107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3557A06B-5AF9-425E-B4CD-60D928F17107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808624FC-6EF7-4524-8697-63D250899F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808624FC-6EF7-4524-8697-63D250899F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808624FC-6EF7-4524-8697-63D250899F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808624FC-6EF7-4524-8697-63D250899F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DAC60B-34A7-4360-B030-4D1B2214B9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DAC60B-34A7-4360-B030-4D1B2214B9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DAC60B-34A7-4360-B030-4D1B2214B9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DAC60B-34A7-4360-B030-4D1B2214B9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6BD415-BE30-4C07-9587-353329507EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6BD415-BE30-4C07-9587-353329507EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6BD415-BE30-4C07-9587-353329507EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6BD415-BE30-4C07-9587-353329507EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511EA814-82D1-4C71-A851-767F4245723F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511EA814-82D1-4C71-A851-767F4245723F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511EA814-82D1-4C71-A851-767F4245723F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511EA814-82D1-4C71-A851-767F4245723F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674A30BE-289C-440B-AF68-356D45D9A589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A30BE-289C-440B-AF68-356D45D9A589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674A30BE-289C-440B-AF68-356D45D9A589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A30BE-289C-440B-AF68-356D45D9A589}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD769B62-793E-466F-A14B-696185B4862B}
+	EndGlobalSection
+EndGlobal

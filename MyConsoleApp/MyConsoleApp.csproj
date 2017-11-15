@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cqrs_review_windsor\cqrs_review_windsor.csproj" />
+    <ProjectReference Include="..\MyAppExampleHttp\MyAppExampleHttp.csproj" />
+    <ProjectReference Include="..\MyAppExampleSql\MyAppExampleSql.csproj" />
+    <ProjectReference Include="..\MyDomainCommandContext\MyDomainCommandContext.csproj" />
+  </ItemGroup>
+
+</Project>

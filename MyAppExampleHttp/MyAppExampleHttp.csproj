@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyDomainCommandContext\MyDomainCommandContext.csproj" />
+    <ProjectReference Include="..\MyDomainCriteries\MyDomainCriteries.csproj" />
+    <ProjectReference Include="..\MyModel\MyModel.csproj" />
+  </ItemGroup>
+
+</Project>

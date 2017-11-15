@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cqrs_review_windsor\cqrs_review_windsor.csproj" />
+    <ProjectReference Include="..\MyDomainCommandContext\MyDomainCommandContext.csproj" />
+    <ProjectReference Include="..\MyDomainCriteries\MyDomainCriteries.csproj" />
+    <ProjectReference Include="..\MyModel\MyModel.csproj" />
+  </ItemGroup>
+
+</Project>
